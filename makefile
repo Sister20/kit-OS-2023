@@ -27,8 +27,8 @@ clean:
 
 
 kernel:
-	@$(CC)  $(CFLAGS) src/kernel.c -o bin/kernel.o
-# TODO: Compile assembly with AFLAGS
+	@$(ASM) $(AFLAGS) src/kernel_loader.s -o bin/kernel_loader.o
+# TODO: Compile C file with CFLAGS
 	@$(LIN) $(LFLAGS) bin/*.o -o $(OUTPUT_FOLDER)/kernel
 	@echo Linking object files and generate elf32...
 	@rm -f *.o
