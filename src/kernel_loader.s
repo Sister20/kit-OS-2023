@@ -15,14 +15,14 @@ align 4                              ; align at 4 bytes
 kernel_stack:                        ; label points to beginning of memory
     resb KERNEL_STACK_SIZE           ; reserve stack for the kernel
 
-section .text                        ; start of the text (code) section
+section .multiboot                   ; GNU GRUB Multiboot header
 align 4                              ; the code must be 4 byte aligned
     dd MAGIC_NUMBER                  ; write the magic number to the machine code,
     dd FLAGS                         ; the flags,
     dd CHECKSUM                      ; and the checksum
 
 
-
+section .text                                  ; start of the text (code) 
 loader:                                        ; the loader label (defined as entry point in linker script)
     mov  esp, kernel_stack + KERNEL_STACK_SIZE ; setup stack register to proper location
     call kernel_setup
