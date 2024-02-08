@@ -11,3 +11,5 @@ Kit list
 Disusun oleh asisten laboratorium Sistem Paralel dan Terdistribusi ITB '19 dan '20
 
 Disclaimer : Seluruh material yang digunakan pada spesifikasi dan kit digunakan untuk kepentingan edukasional dan memenuhi mata kuliah IF2230 - Sistem Operasi tahun 2023
+
+Jika memiliki kendala atau hal lain, dapat mengontak [@Lock1](https://github.com/lock1) atau brshlckd@gmail.com
