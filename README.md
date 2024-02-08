@@ -8,6 +8,6 @@ Kit list
 2. https://github.com/Sister20/kit-OS-milestone-2-2023
 3. https://github.com/Sister20/kit-OS-milestone-3-2023
 
-Disusun oleh tim asisten laboratorium sistem terdistribusi '20
+Disusun oleh asisten laboratorium Sistem Paralel dan Terdistribusi ITB '19 dan '20
 
 Disclaimer : Seluruh material yang digunakan pada spesifikasi dan kit digunakan untuk kepentingan edukasional dan memenuhi mata kuliah IF2230 - Sistem Operasi tahun 2023
